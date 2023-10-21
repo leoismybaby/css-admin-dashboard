@@ -12,7 +12,7 @@
         <div class="sidebar">
             <div class="logo">
                 <img class="logoIcon" src="images/webpack.svg" alt="Logo of the site">
-                <p>Dashboard</p>
+                <h2>Dashboard</h2>
             </div>
         <div class="navbar">
             <ul>
@@ -34,15 +34,23 @@
             <div class="topbar">
                 <div class="search">
                    <img src="images/magnify.svg" alt="Searchbar icon">
-                   <div class="searchbar"></div>
+                   <input type="search" id="query" name="q" placeholder="Search...">
                 </div>
                 <div class="user">
                     <img src="images/bell-outline.svg" alt="Notification icon">
-                    <!-- Profile picture here -->
+                    <img src="images/github.svg" id="userIcon" alt="The user's profile icon">
                     <div class="username">John Doe</div>
                 </div>
             </div>
-            <div class="bottombar"></div>
+            <div class="bottombar">
+                
+                <div class="greeting"><img src="images/github.svg" alt="User's profile icon">Hi, John!</div>
+                <div class="createBar">
+                    <button>New</button>
+                    <button>Upload</button>
+                    <button>Share</button>
+                </div>
+            </div>
         </div>
 
         <div class="mainContent">
